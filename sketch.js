@@ -12,9 +12,6 @@ function preload()
 function setup() {
 	createCanvas(800, 700);
   database = firebase.database();
- // dog=createSprite(200,350,30,20)
- // dog.addImage("running",dogimg3)
- // dog.scale=0.3
   dog1=createSprite(400,350,30,20)
   dog1.addImage("running",dogimg2)
   dog1.scale=0.3
